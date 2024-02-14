@@ -6,9 +6,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
+        //print arrays that are entered
 int arr[] = getInteger(4);
 System.out.println("----> " + Arrays.toString(arr));
 
+        //prints the elements in the array
 int [] arr1 = new int[]{12,45,3039,990,2344,2292,0};
 printArray(arr1);
 
