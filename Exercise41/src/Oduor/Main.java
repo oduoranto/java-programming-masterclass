@@ -14,6 +14,7 @@ System.out.println("----> " + Arrays.toString(arr));
 int [] arr1 = new int[]{12,45,3039,990,2344,2292,0};
 printArray(arr1);
 
+        //Sorted the arrays
 int [] arr2 = new int[]{12,976,76,986,56,223,21};
 System.out.println(Arrays.toString(sortInteger(arr2)));
 
@@ -39,6 +40,7 @@ System.out.println(Arrays.toString(sortInteger(arr2)));
 
         int[] sortedArray = new int [array.length];
         Arrays.sort(array);
+        System.out.println(Arrays.toString(array));
 
         for(int i =0; i < sortedArray.length; i++){
             sortedArray[i] = array[array.length - (1 + i)];
